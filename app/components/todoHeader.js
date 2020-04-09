@@ -6,6 +6,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
+// Formatting date to show on main
 const fomatedDate = () => {
   let date = new Date();
   date = date.toString().split(`${date.getHours()}:`)[0]

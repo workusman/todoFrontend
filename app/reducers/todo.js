@@ -1,3 +1,4 @@
+// WRITTEN FOR ONLY FETCH AND CREATE ACTIONS
 const INITIAL_STATE = {
   data: [],
   status: '',

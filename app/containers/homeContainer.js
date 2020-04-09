@@ -1,9 +1,9 @@
+// Main Home container Which renders home component
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import Home from '../screens/home';
 import * as todoActions from '../actions/todoActions';
 import { ActivityIndicator, View } from 'react-native';
-
 
 class HomeContainer extends Component {
   componentDidMount() {

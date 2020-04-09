@@ -7,10 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
-
-
-
-import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
+import GestureRecognizer from 'react-native-swipe-gestures';
 
 const handleSwipeLeft = (todo, deleteTodo) => {
   Alert.alert(

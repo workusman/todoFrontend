@@ -1,4 +1,4 @@
-
+// Todo form to for new todo
 import React from 'react';
 import styles from '../styles/todos'
 import {
@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
   Keyboard
 } from 'react-native';
-import TodoList from './todoList';
 
 const TodoForm = ({handleInputChange, createTodo, todo , toggleTodoForm}) => (
   <View style={{flexDirection: 'column'}}>
@@ -16,6 +15,7 @@ const TodoForm = ({handleInputChange, createTodo, todo , toggleTodoForm}) => (
   <View style={styles.newTodoContainer}>
     <TextInput multiline onChange={handleInputChange} style={styles.newTodoTextInput} />
   </View>
+
   <TouchableOpacity
     style={styles.saveTodo}
     onPress={ () => {

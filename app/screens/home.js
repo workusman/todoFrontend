@@ -1,3 +1,4 @@
+// HOME SCREEN COMPOENT
 import React, {Component} from 'react';
 import {
   ScrollView,
@@ -8,7 +9,6 @@ import styles from '../styles/todos';
 import TodoHeader from '../components/todoHeader';
 import TodoList from '../components/todoList';
 import TodoForm from '../components/todoForm';
-
 
 export default class Home extends Component {
   constructor(props){

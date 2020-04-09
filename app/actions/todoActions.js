@@ -1,3 +1,4 @@
+
 import * as types from '../actionTypes/todo';
 import {
   getTodos,
@@ -6,6 +7,8 @@ import {
   completeTodos
 } from '../api/todoApi';
 
+// All the actions call the respective api actions to hit todo api and get data from database
+// Success and failure actions of only FETCH are written Keeping the code simple
 export function fetchTodos() {
   return async dispatch => {
     dispatch({type: types.FETCH_TODOS});
@@ -33,7 +36,6 @@ export function createTodo(todo) {
       dispatch(fetchTodos());
     }
     catch(error){
-      console.log("---error", error)
       dispatch({type: types.CREATE_TODO_FAILURE, error});
     }
   }
@@ -49,7 +51,6 @@ export function deleteTodo(id) {
       dispatch(fetchTodos());
     }
     catch(error){
-      console.log("---eror", error)
       dispatch({type: types.DELETE_TODO_FAILURE, error});
     }
   }
@@ -65,7 +66,6 @@ export function completeTodo(id) {
       dispatch(fetchTodos());
     }
     catch(error){
-      console.log("---error", error)
       dispatch({type: types.UPDATE_TODO_FAILURE, error});
     }
   }
