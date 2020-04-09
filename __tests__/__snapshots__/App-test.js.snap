@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "stretch",
+      "backgroundColor": "purple",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingBottom": 67,
+      "paddingLeft": 38,
+      "paddingRight": 38,
+      "paddingTop": 120,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "flex": 1,
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "left",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontSize": 20,
+            }
+          }
+        >
+          Tue Apr 07 2020 
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "purple",
+            "borderRadius": 120,
+            "fontWeight": "bold",
+            "height": 60,
+            "justifyContent": "center",
+            "opacity": 1,
+            "padding": 10,
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 30,
+            }
+          }
+        >
+          +
+        </Text>
+      </View>
+    </View>
+    <Text>
+      Todo list is empty
+    </Text>
+  </View>
+</View>
+`;
